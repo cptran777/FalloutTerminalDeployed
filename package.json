@@ -1,0 +1,27 @@
+{
+  "name": "falloutterminaldeployed",
+  "version": "0.0.1",
+  "description": "Practicing game development by making a fallout terminal and serving with Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cptran777/FalloutTerminalDeployed.git"
+  },
+  "author": "Charlie Tran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cptran777/FalloutTerminalDeployed/issues"
+  },
+  "homepage": "https://github.com/cptran777/FalloutTerminalDeployed#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
